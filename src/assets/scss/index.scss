@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+        'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+        sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+        monospace;
+}
+
+input[type="number"]::-webkit-clear-button {
+    display: none;
+}
+
+//remove inside of arrows button
+input[type="number"]::-webkit-inner-spin-button {
+  display: none;
+}
+
+//remove outsideof arrows button
+input[type="number"]::-webkit-outside-spin-button {
+  display: none;
+}
